@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-data = pd.read_csv('train.csv')
+data = pd.read_csv(r'E:\prodegy\TASK1\PRODIGY_ML_01\train.csv')
 
 # Initialize the model
 model = LinearRegression()
